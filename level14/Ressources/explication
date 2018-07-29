@@ -1,0 +1,8 @@
+cette fois si on va brutforce l'execuable getflag avec gdb
+
+gdb /bin/getflag
+
+break main
+r
+disas
+jump *[adress](+1183)

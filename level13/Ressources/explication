@@ -1,0 +1,8 @@
+on va brutforce l'execuable avec gdb
+
+gdb level13
+
+break main
+r
+disas
+jump *[adress](+63)

@@ -1,0 +1,7 @@
+on peu voir dans le binair les differant string qu'on obtien en l'executant avec differant fichier
+
+on se rend compts le binair produira une erreur quoi auil'arrive si le parametre se termine par token
+
+il faut donc fair un lien symoblique pour contourner le probleme
+
+ln -s ~/token /tmp/oui

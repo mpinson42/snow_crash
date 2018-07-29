@@ -1,0 +1,7 @@
+dans le code on peu voir un localhost:4747 on peu donc accseder au programe via navigaeur sur [ip]:4747
+
+et on voie que le programe prend le parametre x donc [ip]:4747?x=
+
+on voie aussi un ligne ou est ecrit : `echo $y 2>&1` qui est une commande chell
+
+on peu donc mettre [ip]:4747?x=`/bin/getflag` dans le navigateur pour lancer la commande 

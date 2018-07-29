@@ -1,0 +1,7 @@
+en regardant dans le binair on se rend compts que cela envoie un fichier qu'on pourais lire avec netcat sur le port 6969
+
+dans un autre terminal taper la commande : nc  -klv  6969
+pour lancer le netcat en boucle (k)
+
+
+woupa2yuojeeaaed06riuj63c

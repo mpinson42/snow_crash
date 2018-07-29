@@ -1,0 +1,8 @@
+on peu voir cette ligne :
+
+@output = `egrep "^$xx" /tmp/xd 2>&1`;
+
+qui pourais permetre de lancer getflag mais les regex demande obligatoirment des maj il est donc impossible de passer une commande
+mais on peu cree un fichier en majusule contenant un script : 
+
+getflag > /tmp/oui

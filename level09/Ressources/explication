@@ -1,0 +1,19 @@
+on se rend conte que avec l'executable il ecrit la chaine de caracter passer en parametre avec un decalage de 1 a chaque lettre ecrit en plus par exemple : aaaaaa => abcdef
+
+il faut donc fair l'inverse pour trouver le token grace a se code 
+
+
+
+
+int main(int argc, char **argv)
+{
+	int i = 0;
+	while(argv[1][i])
+	{
+		char c = argv[1][i] - i;
+		write(1, &c, 1);
+		i++;
+	}
+}
+
+et en l'executant de cette manierre ./level09 `cat [file]`

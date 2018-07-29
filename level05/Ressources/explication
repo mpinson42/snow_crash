@@ -1,0 +1,8 @@
+on peu voir dans le fichier se trouvent au /var/mail/level05 grace a env, un fichier crontab qui execute /usr/sbin/openarenaserver
+
+
+dans se fichier on trouve qu'il execute tout les fichier se trouvent au /opt/openarenaserver/
+
+il suffit donc de cree un fichier contenant /bin/getflag > /tmp/flag
+
+et quand le fichier sera executer alors le flagsera ecrit

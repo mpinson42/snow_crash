@@ -1,0 +1,5 @@
+on voie dans env la ligne LOGNAME=level07
+
+et dans le binair la ligne LOGNAME/bin/echo %s avec un nm on voie la fonction system
+
+on fait donc un export LOGNAME=\`getflag\` et lancer l'executable

